@@ -1,0 +1,46 @@
+.custom-glove-container{
+    display: flex;
+    align-items: center;
+}
+.custom-gloves-left-line{
+    padding-right: 100px;
+}
+.custom-glove-sec-section{
+    background: rgba(197, 197, 197, 0.322);
+    width: 100%;
+}
+.custom-glove-sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 40px;
+}
+.custom-glove-img-sec {
+    width: 270px;
+    height: 400px;
+    overflow: hidden;
+}
+.custom-glove-img-sec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    filter: grayscale(100%);
+}
+
+.custom-glove-img-sec img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.custom-gloves-left-line-s{
+    width: 700px;
+}
+
+.other-sec{
+    float: right;
+}
+
+.other-navbar{
+    background: #fff;
+}

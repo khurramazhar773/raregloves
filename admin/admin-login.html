@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Document Meta
+    ============================================= -->
+
+    
+        <!-- Fonts
+    ============================================= -->
+        <link
+            href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:100,200,300,400,500,600,700,800%7CDroid+Serif:400,400italic,700,700italic'
+            rel='stylesheet' type='text/css'>
+    
+        <!-- Stylesheets
+    ============================================= -->
+        <link href="../assets/css/external.css" rel="stylesheet">
+        <!-- Extrnal CSS -->
+        <!-- Boostrap Core CSS -->
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/login.css">
+        <!-- Style CSS -->
+    
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+        <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+          <script src="../assets/js/respond.min.js"></script>
+        <![endif]-->
+    
+        <!-- Document Title
+        ============================================= -->
+        <title>Yellow Hats | Construction Business HTML5 Template</title>
+    </head>
+<body>
+    <!-- Modal -->
+<div class="modal fade model-quote" id="hmodel-quote" tabindex="-1" role="dialog" aria-labelledby="hmodelquote">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="model-icon">
+                    <i class="lnr lnr-apartment"></i>
+                </div>
+                <div class="model-divider">
+                    <div class="model-title">
+                        <p>Only Admin Can login</p>
+                        <h6>Login First</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- .model-header end -->
+            <div class="modal-body">
+                <form action="../assets/php/login.php" class="login-form" method="post">
+                    <input type="text" class="form-control " name="userName" id="quote-name" placeholder="User Name" required />
+                    <input type="password" class="form-control" name="userPassword" id="quote-email" placeholder="Password" required />
+                    <button type="submit" name="submit" class="btn btn-primary btn-black btn-block">Login</button>
+                    <!--Alert Message-->
+                    <div id="head-quote-result" class="mt-xs">
+                    </div>
+                </form>
+            </div>
+            <!-- .model-body end -->
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
