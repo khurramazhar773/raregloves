@@ -2,9 +2,9 @@
 // config.php
 
 $host = 'localhost'; // e.g., 'localhost'
-$db = 'glove'; // e.g., 'gloves_db'
-$user = 'root'; // e.g., 'root'
-$pass = null; // e.g., ''
+$db = 'u793298586_glove'; // e.g., 'gloves_db'
+$user = 'u793298586_glove'; // e.g., 'root'
+$pass = 'Glove123#'; // e.g., ''
 
 try {
     // Set the PDO error mode to exception
