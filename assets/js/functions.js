@@ -1,4 +1,4 @@
-/*global $, jQuery */
+/*active-filterglobal $, jQuery */
 /* Contents
 // ------------------------------------------------>
 	1.  Loading Screen

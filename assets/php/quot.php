@@ -24,7 +24,7 @@ if (isset($_POST['submit']) && isset($_POST['quote-message'])) {
         $stmt->execute();
         
         // Redirect if successful
-        header("location: ../../home-2.html");
+        header("location: ../../index.html");
         exit(); // Ensure to stop further execution after redirect
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
